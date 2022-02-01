@@ -1,0 +1,6 @@
+@import "./default.css";
+@import "./styles.css";
+@import "./typography.css";
+
+@import "./../components/Avatar/avatar.css";
+@import "./../components/Badge/badge.css";
