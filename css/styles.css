@@ -1,5 +1,6 @@
 @import url("./components/default.css");
 
+/*** Styles for home Page ***/
 * {
   margin: 0;
   padding: 0;
@@ -74,11 +75,10 @@
 }
 
 .side-bar .nav-links .nav-link-item.active {
-  color: var(--primary-color);
   font-weight: 600;
 }
 
-.side-bar .nav-links .nav-link-item:not(.active):hover {
+.side-bar .nav-links .nav-link-item:hover {
   background-color: var(--light-primary-color);
   border-radius: 10px;
 }
@@ -144,4 +144,28 @@
   .side-bar {
     display: none;
   }
+}
+
+/*** Styles for Avatar and Badge Documentation ***/
+
+.comp-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.content-container {
+  display: flex;
+  align-items: baseline;
+  gap: 3rem;
+  border: 1px solid var(--dark-gray-color);
+  box-shadow: 0 0 1px 1px var(--light-gray-color);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.code-container iframe {
+  width: 100%;
+  min-height: 15rem;
+  margin: 1rem 0;
 }

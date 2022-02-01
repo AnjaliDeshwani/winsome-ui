@@ -1,0 +1,38 @@
+.badge-wrapper {
+  position: relative;
+}
+
+.badge-count {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  font-weight: 600;
+  top: -5px;
+  right: -10px;
+  background-color: var(--primary-color);
+}
+
+.badge-status {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  bottom: 6px;
+  right: 22px;
+}
+
+.status-online {
+  background-color: green;
+}
+
+.status-busy {
+  background-color: red;
+}
+
+.status-invisible {
+  background-color: grey;
+}
