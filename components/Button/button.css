@@ -1,0 +1,46 @@
+.btn {
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.primary-btn-solid {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.primary-btn-outline {
+  color: var(--primary-color);
+  outline: var(--primary-color) solid 1px;
+  background: none;
+}
+
+.link-btn {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-weight: 600;
+}
+
+.link-btn:hover {
+  color: var(--primary-color);
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.float-btn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  background-color: var(--primary-color);
+}
