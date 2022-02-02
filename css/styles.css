@@ -53,10 +53,16 @@
   margin: 0 1rem;
 }
 
+.header-link,
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .side-bar {
   grid-area: sidebar;
   background-color: #fff;
-  box-shadow: 0 0 9px 5px var(--light-gray-color);
+  box-shadow: 0 0 10px var(--light-gray-color);
 }
 
 .side-bar .nav-links {
@@ -158,14 +164,20 @@
   display: flex;
   align-items: baseline;
   gap: 3rem;
-  border: 1px solid var(--dark-gray-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 1px 1px var(--light-gray-color);
+  background-color: #f8fafc;
   padding: 1rem;
   margin: 1rem 0;
+  width: 70rem;
 }
 
 .code-container iframe {
   width: 100%;
   min-height: 15rem;
   margin: 1rem 0;
+}
+
+.display-flex-column {
+  flex-direction: column;
 }
