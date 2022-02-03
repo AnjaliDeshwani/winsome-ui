@@ -19,9 +19,6 @@
     <div class="grid-container">
       <header class="header-bar">
         <div class="header-item">
-          <!-- <div class="header-logo">
-            <img src="../../assets/logo.png" alt="logo" />
-          </div> -->
           <div class="header-name">WINSOME-UI</div>
         </div>
         <div class="header-item">
@@ -186,23 +183,6 @@
         </div>
       </footer>
     </div>
-    <script>
-         var toggleBtn=document.querySelector("#toggle-btn");
-         var floatBtn=document.getElementById("float-btn");
-         floatBtn.style.display="none";
-
-         var toggleFlag=true;
-         toggleBtn.addEventListener("click",()=>{
-             if(toggleFlag){
-                toggleBtn.innerHTML="Hide";
-                floatBtn.style.display="block";
-             }
-             else{
-                toggleBtn.innerHTML="Show";
-                floatBtn.style.display="none"
-             }
-             toggleFlag=!toggleFlag;
-         })
-    </script>
+    <script src="button.js"></script>
   </body>
 </html>
