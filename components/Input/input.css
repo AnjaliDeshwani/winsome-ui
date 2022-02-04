@@ -1,0 +1,23 @@
+.input-group {
+  width: 80%;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-txt {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.err-input {
+  border: 1px solid var(--red-color);
+}
+
+.err-msg {
+  color: var(--red-color);
+}
