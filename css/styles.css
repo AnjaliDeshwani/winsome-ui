@@ -169,7 +169,8 @@
   background-color: #f8fafc;
   padding: 1rem;
   margin: 1rem 0;
-  width: 70rem;
+  width: fit-content;
+  margin: 1rem auto;
 }
 
 .code-container iframe {
