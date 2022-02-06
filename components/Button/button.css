@@ -43,4 +43,5 @@
   right: 0;
   margin: 1rem;
   background-color: var(--primary-color);
+  border-radius: 1.5rem;
 }
