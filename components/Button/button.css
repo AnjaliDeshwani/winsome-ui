@@ -1,8 +1,6 @@
 .btn {
-  min-width: 3rem;
-  min-height: 3rem;
   padding: 0.5rem 1.2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: none;
   border-radius: 5px;
   font-weight: 500;
