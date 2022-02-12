@@ -85,3 +85,8 @@
 .border-radius-round {
   border-radius: 50%;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
