@@ -9,13 +9,24 @@
 
 .primary-btn-solid {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--white-color);
+  transition: all 0.2s;
+}
+
+.primary-btn-solid:hover {
+  background-color: var(--dark-primary-color);
 }
 
 .primary-btn-outline {
   color: var(--primary-color);
   outline: var(--primary-color) solid 1px;
   background: none;
+  transition: all 0.2s;
+}
+
+.primary-btn-outline:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
 }
 
 .link-btn {
