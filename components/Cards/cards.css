@@ -4,6 +4,11 @@
   width: 100%;
   background-color: var(--white-color);
   box-shadow: 0 0 9px 5px var(--light-gray-color);
+  transition: all 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 0 9px 1px var(--dark-gray-color);
 }
 
 .vertical-card {
@@ -70,7 +75,7 @@
 }
 
 .like-icon:hover {
-  opacity: 0.3;
+  transform: scale(1.1);
 }
 
 .close-icon:hover {
@@ -89,7 +94,7 @@
 }
 
 .card-price {
-  margin: 4px 0 8px;
+  margin: 16px 0 8px;
 }
 
 .price-now {
