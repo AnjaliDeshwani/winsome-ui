@@ -1,0 +1,39 @@
+.snackbar-surface {
+  display: flex;
+  min-width: 25rem;
+  max-width: 40rem;
+  border-radius: 5px;
+  background-color: var(--black-color);
+}
+
+.snackbar-surface .snackbar-label {
+  color: #fff;
+  padding: 16px 18px;
+  font-size: 1.2rem;
+}
+
+.snackbar-surface .snackbar-actions {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.snackbar-surface .snackbar-actions .snackbar-btn {
+  background-color: transparent;
+  padding: 10px;
+  margin: 4px;
+  border: none;
+}
+
+.snackbar-surface .snackbar-actions .snackbar-action-btn {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.snackbar-surface .snackbar-actions .snackbar-close-btn {
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
