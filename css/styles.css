@@ -192,3 +192,12 @@
   width: 35rem;
   justify-content: center;
 }
+
+.nav-body {
+  width: 100%;
+}
+
+.grid-body {
+  width: 100%;
+  align-items: center;
+}
