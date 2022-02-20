@@ -1,0 +1,10 @@
+.rating .star-icon {
+  font-size: 1.4rem;
+  transition: transform 0.2s;
+}
+.rating .star-icon:hover {
+  transform: scale(1.2);
+}
+.rating-given {
+  color: var(--yellow-color);
+}
