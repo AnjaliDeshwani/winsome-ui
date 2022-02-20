@@ -1,0 +1,29 @@
+.nav-bar {
+  width: 100%;
+  border: 1px solid var(--black-color);
+  padding: 8px 16px;
+}
+
+.nav-items-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.nav-logo {
+  flex-grow: 1;
+}
+
+.nav-img {
+  height: 2rem;
+  width: auto;
+}
+
+.nav-item {
+  transition: transform 0.2s;
+}
+.nav-item:hover {
+  transform: scale(1.2);
+}
