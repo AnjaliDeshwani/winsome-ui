@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WINSOME-UI</title>
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <title>Slider</title>
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon.ico"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
@@ -14,13 +18,13 @@
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
     />
-    <link rel="stylesheet" href="/css/winsome.css" />
+    <link rel="stylesheet" href="../../css/winsome.css" />
   </head>
   <body>
     <div class="grid-container">
       <header class="header-bar">
-        <a href="index.html" class="header-item">
-          <img class="header-logo" src="assets/logo.png" alt="logo" />
+        <a href="../../index.html" class="header-item">
+          <img class="header-logo" src="../../assets/logo.png" alt="logo" />
           <div class="header-name">WINSOME-UI</div>
         </a>
         <div class="header-item">
@@ -56,32 +60,43 @@
       </header>
       <div class="side-bar">
         <nav class="nav-links">
-          <a href="index.html" class="nav-link-item active">Installation</a>
+          <a href="/index.html" class="nav-link-item">Installation</a>
           <a href="/components/Avatar/avatar.html" class="nav-link-item">
             Avatar
           </a>
-          <a href="/components/Alert/alert.html" class="nav-link-item">Alert</a>
-          <a href="/components/Badge/badge.html" class="nav-link-item">Badge</a>
+          <a href="/components/Alert/alert.html" class="nav-link-item">
+            Alert
+          </a>
+          <a href="/components/Badge/badge.html" class="nav-link-item">
+            Badge
+          </a>
           <a href="/components/Button/button.html" class="nav-link-item">
             Button
           </a>
           <a href="/components/Cards/cards.html" class="nav-link-item">Cards</a>
           <a href="/components/Grid/grid.html" class="nav-link-item"> Grid </a>
-          <a href="/components/Image/image.html" class="nav-link-item">Image</a>
+          <a href="/components/Image/image.html" class="nav-link-item">
+            Image
+          </a>
           <a href="/components/Input/input.html" class="nav-link-item">Input</a>
+
           <a href="/components/Lists/lists.html" class="nav-link-item">
             Lists
           </a>
           <a href="/components/Modal/modal.html" class="nav-link-item">
             Modal
           </a>
-          <a href="/components/Navigation/navigation.html" class="nav-link-item"
-            >Navigation</a
+
+          <a
+            href="/components/Navigation/navigation.html"
+            class="nav-link-item"
           >
+            Navigation
+          </a>
           <a href="/components/Rating/rating.html" class="nav-link-item">
             Rating
           </a>
-          <a href="/components/Slider/slider.html" class="nav-link-item">
+          <a href="/components/Slider/slider.html" class="nav-link-item active">
             Slider
           </a>
           <a href="/components/Snackbar/snackbar.html" class="nav-link-item">
@@ -96,32 +111,39 @@
         </nav>
       </div>
       <main class="main-body">
-        <h3 class="main-heading">
-          WINSOME UI is the extensive library of components
-        </h3>
-        <div class="text-regular">
-          This library allows you to ship the components faster as you just have
-          to copy and paste the components.
-        </div>
-        <div class="text-regular">
-          You can use any of the components as demonstrated in the
-          documentation. Please refer to each component's demo page to see how
-          they should be imported.
-        </div>
-        <h4 class="inst-guide">Installation Guide</h4>
-        <div class="text-regular">
-          Get Started Today!! Copy the below link and paste it in the head tag
-          of your html file.
-        </div>
-        <div class="code-container">
-          <code>
-            <iframe
-              src="https://carbon.now.sh/embed/5dFMMO2p4nV8PemDHBa4"
-              style="border: 0; transform: scale(1); overflow: hidden"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </code>
+        <h2>Slider</h2>
+        <p class="text-medium">
+          Sliders are used to decide range for something like sound in videos,
+          price in shopping sites, etc.
+        </p>
+        <div class="comp-wrapper">
+          <p class="text-regular">
+            To include this in your project, you need to add following classes
+            listed in below code.
+          </p>
+          <div class="content-container display-flex-column comp-body">
+            <div class="slider-container">
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="1"
+                class="slider"
+                id="sliderRange"
+              />
+              <div class="slider-value">1</div>
+            </div>
+          </div>
+          <div class="code-container">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed/1emhPd3QRKRGSYqV7XWu"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
         </div>
       </main>
       <footer class="footer">
@@ -158,5 +180,6 @@
         </div>
       </footer>
     </div>
+    <script src="slider.js"></script>
   </body>
 </html>
