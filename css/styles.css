@@ -140,19 +140,6 @@
   margin: 0 1rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .grid-container {
-    grid-template-areas:
-      "header"
-      "main"
-      "footer";
-    grid-template-columns: 1fr;
-  }
-  .side-bar {
-    display: none;
-  }
-}
-
 /*** Styles for Avatar and Badge Documentation ***/
 
 .comp-wrapper {
@@ -185,8 +172,9 @@
 }
 
 .comp-body {
-  width: 30rem;
+  max-width: 30rem;
   gap: 1rem;
+  width: 100%;
 }
 
 .card-container {
@@ -219,3 +207,66 @@
 }
 
 /* Custom scrollbar ends */
+
+/* Styles for drawer component */
+.sidebarIconToggle {
+  align-self: flex-end;
+  font-size: 2rem;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+/* .drawer {
+  transform: translateX(0%);
+  transition: transform 2s;
+} */
+
+@media only screen and (max-width: 1100px) {
+  .grid-container {
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+    grid-template-columns: 1fr;
+  }
+
+  .drawer[data-visible="true"] {
+    transform: translateX(-100%);
+    box-shadow: none;
+  }
+
+  .drawer {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    margin-top: 4rem;
+    grid-area: unset;
+    width: 15rem;
+  }
+
+  .sidebarIconToggle {
+    align-self: flex-end;
+    font-size: 2rem;
+    cursor: pointer;
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-bar .header-item .header-name {
+    font-size: 1.1rem;
+  }
+  .content-container {
+    gap: 0.8rem;
+  }
+  .card-container {
+    width: 26rem;
+  }
+  .grid-two,
+  .grid-three {
+    grid-template-columns: 1fr !important;
+  }
+  .grid-body {
+    min-width: 100%;
+  }
+}
