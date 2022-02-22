@@ -4,10 +4,11 @@ Winsome-UI is a component library which allows you to ship the components faster
 
 ## Installation
 
-Install my-project with npm
+Add the below links in the <head> tag of your html code
 
 ```bash
   <link rel="stylesheet" href="https://winsome-ui.netlify.app/css/winsome.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
 ```
 
 ## Technologies Used -
