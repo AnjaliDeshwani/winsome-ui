@@ -33,6 +33,10 @@ Install my-project with npm
 - Snackbar
 - Typography
 
+## Demo
+
+![](https://github.com/AnjaliDeshwani/winsome-ui/blob/dev/assets/CL-demo.gif)
+
 ## 🔗 Live Link
 
 [![wisome-ui](https://img.shields.io/badge/wisome-ui?style=for-the-badge&logo=ko-fi&logoColor=white)](https://winsome-ui.netlify.app/index.html)
