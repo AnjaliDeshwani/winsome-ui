@@ -92,3 +92,185 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/*** Flex util classes ***/
+fx {
+  display: flex;
+}
+
+.fx-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.fx-row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fx-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.fx-col-rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.fx-ai-center {
+  align-items: center;
+}
+
+.fx-ji-center {
+  justify-items: center;
+}
+
+.fx-jc-center {
+  justify-content: center;
+}
+
+.fx-ac-center {
+  align-content: center;
+}
+
+.fx-jc-sa {
+  justify-content: space-around;
+}
+
+.fx-jc-sb {
+  justify-content: space-between;
+}
+
+.fx-jc-se {
+  justify-content: space-evenly;
+}
+
+.fx-ac-sa {
+  align-content: space-around;
+}
+
+.fx-ac-sb {
+  align-content: space-between;
+}
+
+.fx-ac-se {
+  align-content: space-evenly;
+}
+
+.fx-wrap {
+  flex-wrap: wrap;
+}
+
+.fx-wrap-rev {
+  flex-wrap: wrap-reverse;
+}
+
+.fx-wrap-np {
+  flex-wrap: nowrap;
+}
+
+.fx-jc-fs {
+  justify-content: flex-start;
+}
+
+.fx-jc-fe {
+  justify-content: flex-end;
+}
+
+.fx-ai-fs {
+  align-items: flex-start;
+}
+
+.fx-ai-fe {
+  align-items: flex-end;
+}
+
+.fx-ai-bl {
+  align-items: baseline;
+}
+
+.fx-ai-st {
+  align-items: stretch;
+}
+
+.fx-grow {
+  flex-grow: 1;
+}
+
+/* ?POSITION */
+
+.p-rel {
+  position: relative;
+}
+
+.p-abs {
+  position: absolute;
+}
+
+.p-fix {
+  position: fixed;
+}
+
+.p-stick {
+  position: sticky;
+}
+
+.p-static {
+  position: static;
+}
+
+.top {
+  top: 0;
+}
+
+.btm {
+  bottom: 0;
+}
+
+.lft {
+  left: 0;
+}
+
+.rgt {
+  right: 0;
+}
+
+.top-rgt {
+  top: 0;
+  right: 0;
+}
+
+.top-lft {
+  top: 0;
+  left: 0;
+}
+
+.btm-rgt {
+  bottom: 0;
+  right: 0;
+}
+
+.btm-lft {
+  bottom: 0;
+  left: 0;
+}
+
+.top-btm-lft {
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.top-btm-rgt {
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.top-btm-lft-rgt {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
