@@ -9,7 +9,6 @@
 
 .primary-btn-solid {
   background-color: var(--primary-color);
-  color: var(--white-color);
   transition: all 0.2s;
 }
 
@@ -26,7 +25,7 @@
 
 .primary-btn-outline:hover {
   background-color: var(--primary-color);
-  color: var(--white-color);
+  color: var(--black-color);
 }
 
 .link-btn {
