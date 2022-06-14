@@ -14,7 +14,7 @@
     "sidebar main"
     "footer footer";
   grid-template-rows: 5rem 1fr 7rem;
-  grid-template-columns: 0.5fr 3fr;
+  grid-template-columns: 20rem 3fr;
 }
 
 .header-bar {
@@ -79,10 +79,13 @@
   color: var(--black-color);
   padding: 10px;
   font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .side-bar .nav-links .nav-link-item.active {
   font-weight: 600;
+  background-color: var(--light-primary-color);
+  border-radius: 10px;
 }
 
 .side-bar .nav-links .nav-link-item:hover {

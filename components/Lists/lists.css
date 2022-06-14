@@ -8,6 +8,28 @@
   width: 100%;
 }
 
+.spaced-list li {
+  cursor: pointer;
+  transition: font-weight 0.2s ease;
+}
+
+.spaced-list li:hover {
+  font-weight: 500;
+}
+
 .stacked-list li {
   margin: 1rem;
+}
+
+.vertical-list {
+  width: 100%;
+}
+
+.vertical-list li {
+  border: 1px solid var(--dark-gray-color);
+  padding: 10px 12px;
+  cursor: pointer;
+}
+.vertical-list li:hover {
+  background-color: var(--light-gray-color);
 }

@@ -71,7 +71,7 @@ body {
 
 .welcome-section button {
   border: 2px solid black;
-  width: 11rem;
+  width: 15rem;
   padding: 0.8rem 0;
   font-size: 1.3rem;
   border-radius: 5px;
@@ -88,6 +88,10 @@ body {
 .welcome-section i {
   margin-right: 1rem;
 }
+
+/* .welcome-section .btn-get-started {
+  background-color: var(--dark-primary-color);
+} */
 
 @media screen and (max-width: 888px) {
   .welcome-container {

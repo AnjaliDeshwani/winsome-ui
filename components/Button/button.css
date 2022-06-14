@@ -9,7 +9,7 @@
 
 .primary-btn-solid {
   background-color: var(--primary-color);
-  transition: all 0.2s;
+  transition: background-color 0.2s;
 }
 
 .primary-btn-solid:hover {
@@ -20,7 +20,7 @@
   color: var(--primary-color);
   outline: var(--primary-color) solid 1px;
   background: none;
-  transition: all 0.2s;
+  transition: background-color, color 0.2s;
 }
 
 .primary-btn-outline:hover {

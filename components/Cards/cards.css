@@ -4,7 +4,7 @@
   width: 100%;
   background-color: var(--white-color);
   box-shadow: 0 0 9px 5px var(--light-gray-color);
-  transition: all 0.4s;
+  transition: box-shadow 0.4s;
 }
 
 .card:hover {
@@ -72,7 +72,7 @@
   cursor: pointer;
   font-size: 1.5rem;
   opacity: 0.2;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .ecomm-card .like-icon {
