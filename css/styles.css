@@ -11,9 +11,8 @@
   display: grid;
   grid-template-areas:
     "header header"
-    "sidebar main"
-    "footer footer";
-  grid-template-rows: 5rem 1fr 7rem;
+    "sidebar main";
+  grid-template-rows: 5rem 1fr;
   grid-template-columns: 20rem 3fr;
 }
 
@@ -62,9 +61,12 @@
 .side-bar {
   grid-area: sidebar;
   background-color: #fff;
-  box-shadow: 0 0 10px var(--light-gray-color);
-  height: calc(100vh - 5rem);
+  box-shadow: 0 0 20px var(--dark-gray-color);
   overflow: auto;
+  position: fixed;
+  top: 5rem;
+  width: 20rem;
+  height: calc(100vh - 5rem);
 }
 
 .side-bar .nav-links {
@@ -95,7 +97,7 @@
 
 .main-body {
   grid-area: main;
-  box-shadow: 0 0 9px 5px var(--light-gray-color);
+  box-shadow: 0 0 20px var(--dark-gray-color);
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -115,32 +117,6 @@
   letter-spacing: 0.5px;
   font-size: 1.2rem;
   margin-bottom: 1rem;
-}
-
-.footer {
-  grid-area: footer;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--light-gray-color);
-}
-
-.footer .footer-item {
-  display: inline-flex;
-}
-
-.footer .footer-item.footer-copy {
-  font-size: 1.2rem;
-  letter-spacing: 0.5px;
-}
-
-.footer .footer-item .footer-icons {
-  min-width: 1rem;
-  height: auto;
-  font-size: 2rem;
-  cursor: pointer;
-  margin: 0 1rem;
 }
 
 /*** Styles for Avatar and Badge Documentation ***/
@@ -228,8 +204,7 @@
   .grid-container {
     grid-template-areas:
       "header"
-      "main"
-      "footer";
+      "main";
     grid-template-columns: 1fr;
   }
 
